@@ -1,0 +1,238 @@
+/* Write your CSS here */
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .product-details-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.product-detail-image {
+  width: 400px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-detail-image {
+    width: 500px;
+    height: 600px;
+    margin-right: 20px;
+  }
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-title {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .product-title {
+    font-size: 50px;
+  }
+}
+
+.failure-product-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price {
+  color: #171f46;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-price {
+    font-size: 30px;
+  }
+}
+
+.rating-and-reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 0px;
+}
+.ratings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.star-image {
+  width: 20px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.product-review {
+  align-self: center;
+  margin-left: 20px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.product-description {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #475569;
+  line-height: 20px;
+}
+
+.product-available {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.availability {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+  padding: 0;
+  line-height: 0;
+  margin-top: 17px;
+}
+.horizontal-line {
+  border: 1px solid #616e7c;
+  width: 100%;
+}
+
+.no-of-products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.increase-decrease-button {
+  background-color: transparent;
+  border: 0px;
+  margin: 10px;
+}
+.product-count {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.cart-button {
+  color: white;
+  background-color: #3b82f6;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.similiar-products-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .similar-products-heading {
+    font-size: 40px;
+  }
+}
+.similar-products-display-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-display-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0px;
+  }
+}
+
+.error-image {
+  margin-top: 40px;
+  width: 500px;
+}
+.error-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.continue-button {
+  background-color: #3b82f6;
+  color: white;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
